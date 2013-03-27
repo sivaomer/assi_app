@@ -1,4 +1,5 @@
 class ArtistsController < ApplicationController
+
   # GET /artists
   # GET /artists.json
   def index
@@ -79,5 +80,7 @@ class ArtistsController < ApplicationController
       format.html { redirect_to artists_url }
       format.json { head :no_content }
     end
+
   end
+  
 end

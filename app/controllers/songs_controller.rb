@@ -1,4 +1,5 @@
 class SongsController < ApplicationController
+
   # GET /songs
   # GET /songs.json
   def index
@@ -79,5 +80,7 @@ class SongsController < ApplicationController
       format.html { redirect_to songs_url }
       format.json { head :no_content }
     end
+	  
   end
+
 end
